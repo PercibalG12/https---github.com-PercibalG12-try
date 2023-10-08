@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #20368F;
+} 
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.navbar .logo a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+
+.navbar .links a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 0;
+  transition: 0.2s ease;
+}
+
+.navbar .links a:hover {
+  color: #47b2e4;
+}
+
+.navbar .buttons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 15px 0;
+  transition: 0.2s ease;
+}
+
+.navbar .buttons a:not(:last-child) {
+  margin-right: 30px;
+}
+
+
+.navbar .buttons .references:hover {
+  color: #47b2e4;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .buttons .contact {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 0.375rem;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .buttons .contact:hover {
+  background-color: #47b2e4;
+  color: #fff;
+  border: 1px solid #ffffff;
+}
+
+
+/* resume section */
+
+/* Base styles for the resume */
+
+.resume {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    
+  }
+  
+  h1, h2, h3, p {
+    color: #fff;
+    margin: 0;
+  }
+  
+  /* Header styles */
+  .resume h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .resume p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Section styles */
+  .resume h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #47b2e4;
+  }
+
+  .resume ul  li {
+  
+    color: #fff;
+  }
+  
+  /* Experience and Education styles */
+  .resume .experience, .resume .education {
+    margin-bottom: 30px;
+  }
+  
+  .resume .experience h3, .resume .education h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .resume .experience p, .resume .education p {
+    font-size: 16px;
+  }
+  
+  /* Achievements styles */
+  .resume ul {
+    margin-left: 20px;
+  }
+  
+  .resume li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Skills styles */
+  .resume ul.skills {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resume ul.skills li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #47b2e4;
+    color: #fff;
+    border-radius: 20px;
+  }
+  
+  /* References styles */
+  .resume h2.references {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+  }
+  
+  .resume p.references {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  /* Download link style */
+  .resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #47b2e4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .resume a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mission and Vision Section */
+.mission-vision {
+  padding: 30px;
+  text-align: center;
+}
+
+.mission-vision h2 {
+  font-size: 2rem;
+  color: #fff; 
+  margin-bottom: 20px;
+}
+
+.mission-vision p {
+  font-size: 1.2rem;
+  color: #fff; 
+  margin-bottom: 20px;
+}
